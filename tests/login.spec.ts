@@ -37,7 +37,7 @@ test('description: test E2E de tp', async ({ page }) => {
     //cloicker sur button  Save 
     await addrec.clicksave();
     //verifier si le message est visible
-    expect(await addrec.msgSuccessVisible()).toBeVisible();
+    await expect(await addrec.msgSuccessVisible()).toBeVisible();
     recap = new recaprecrutement(page);
     //je suis rediriger vers la page recap 
     await expect(await recap.recapTitleMsg()).toBeVisible();

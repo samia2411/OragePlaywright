@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11055","description: test E2E de tp","firefox","2026-04-03","passed","2026-04-03","","login.spec.ts","",""
+"","7435","description: test E2E de tp","webkit","2026-04-03","passed","2026-04-03","","login.spec.ts","",""
+"","6873","description: test E2E de tp","chromium","2026-04-03","passed","2026-04-03","","login.spec.ts","",""
