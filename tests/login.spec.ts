@@ -41,7 +41,6 @@ test('description: test E2E de tp', async ({ page }) => {
     recap = new recaprecrutement(page);
     //je suis rediriger vers la page recap 
     await expect(await recap.recapTitleMsg()).toBeVisible();
-    //je verifier champs par champs  dans  la page  
 
 });
 
